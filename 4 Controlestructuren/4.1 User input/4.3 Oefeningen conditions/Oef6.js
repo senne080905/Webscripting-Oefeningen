@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")();
 
-let cijfer = prompt("Geef een getal tussen 1 en 3 in: ");
+let cijfer = Number(prompt("Geef een getal tussen 1 en 3 in: "));
 
 switch(cijfer){
     case 1:

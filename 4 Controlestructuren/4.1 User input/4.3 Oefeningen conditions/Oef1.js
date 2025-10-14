@@ -1,4 +1,4 @@
-const prompt = require("prompt-sync");
+const prompt = require("prompt-sync")();
 
 let temperatuur = prompt("Wat is de temperatuur: ");
 if(temperatuur > 20){

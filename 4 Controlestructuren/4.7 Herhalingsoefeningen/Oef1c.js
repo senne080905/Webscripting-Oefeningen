@@ -8,7 +8,7 @@ for(let i = 1; i <= aantal; i++){
     for(let j = 1; j <= aantal - i; j++){
         line = line + " ";
     }
-    for( let k=1; k <= i; k++){
+    for( let k=1; k <= i*2-1; k++){
         line = line + "#";
     }
 console.log(line);

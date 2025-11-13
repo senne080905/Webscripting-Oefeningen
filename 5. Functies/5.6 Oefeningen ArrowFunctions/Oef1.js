@@ -1,9 +1,12 @@
+let isTrue;
 const IsVeelvoud = (a, b) => {
     if(a % b == 0){
-        let isTrue = true;
+        isTrue = true;
     }
     else{
-        let isTrue = false;
+        isTrue = false;
     }
 }
-(IsVeelvoud(5, 2));
+IsVeelvoud(10, 5);
+
+console.log(isTrue);

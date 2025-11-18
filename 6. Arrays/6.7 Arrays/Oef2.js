@@ -8,4 +8,4 @@ function KeerOm(getal){
     return nieuwe;
 }
 let omgekeerd = KeerOm(getal);
-console.log(omgekeerd);
+console.log(omgekeerd); 

@@ -5,3 +5,4 @@ let res = array.filter(filterComplex);
 function filterComplex(array){
     return (number > 10) && (number % 2 == 0);
 }
+console.log(res);

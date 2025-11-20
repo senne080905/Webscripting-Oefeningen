@@ -1,5 +1,5 @@
 let allMenuItems = document.querySelectorAll('ul');
 
-array.forEach(element => {
-    allMenuItems.parentNode.removeChild(allMenuItems);
+allMenuItems.forEach(ul => {
+    ul.parentNode.removeChild(ul);
 });
